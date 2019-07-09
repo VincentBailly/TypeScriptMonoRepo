@@ -1,2 +1,2 @@
-# TypeScripMonoRepo
+# TypeScriptMonoRepo
 Sample TypeScript mono-repo

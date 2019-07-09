@@ -1,0 +1,19 @@
+{
+	"name": "D",
+	"version": "1.0.0",
+	"private": false,
+	"main": "lib/index.js",
+	"typings": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc --incremental",
+		"prepare": "tsc --incremental",
+		"watch": "tsc --watch --incremental"
+	},
+	"dependencies": {
+		"B": "*",
+		"C": "*"
+	},
+	"devDependencies": {
+		"typescript": "^3.5.1"
+	}
+}

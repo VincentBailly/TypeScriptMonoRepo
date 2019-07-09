@@ -1,0 +1,16 @@
+{
+	"name": "B",
+	"version": "1.0.0",
+	"private": false,
+	"main": "lib/index.js",
+	"typings": "lib/index.d.ts",
+	"license": "MIT",
+	"scripts": {
+		"build": "yarn prepare",
+		"prepare": "tsc --incremental",
+		"watch": "tsc --watch --incremental"
+	},
+	"devDependencies": {
+		"typescript": "^3.5.1"
+	}
+}

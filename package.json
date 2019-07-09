@@ -1,0 +1,23 @@
+{
+ "name": "monorepoPlayground",
+ "version": "1.0.0",
+ "private": true,
+ "main": "index.js",
+ "repository": "https://github.com/VincentBailly/TypeScripMonoRepo",
+ "author": "VincentBailly <vibailly@microsoft.com>",
+ "scripts": {
+	"prepare": "lerna run prepare",
+  "build": "lerna run build",
+  "lerna": "lerna",
+  "watch": "lerna run watch --parallel"
+ },
+ "workspaces": {
+  "packages": [
+   "packages/*"
+  ]
+ },
+ "license": "MIT",
+ "devDependencies": {
+  "lerna": "^3.15.0"
+ }
+}

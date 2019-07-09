@@ -1,9 +1,9 @@
 const path = require("path");
-const fs = require("fs")
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  entry: "./lib/index.js",
+  entry: "./src/index.ts",
   // We use inline source-map to enable sub-line breakpoints,
   // if perf turns out to be a problem we can experiment less accurate and faster
   // mapping strategies.
@@ -16,8 +16,17 @@ module.exports = {
     contentBase: "./dist",
     overlay: true
   },
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        use: [{ loader: "ts-loader", options: { transpileOnly: true } }]
+      }
+    ]
+  },
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
-  }
+  },
+  plugins: [new ForkTsCheckerWebpackPlugin({async: true})]
 };

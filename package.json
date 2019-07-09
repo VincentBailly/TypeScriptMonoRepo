@@ -6,7 +6,6 @@
  "repository": "https://github.com/VincentBailly/TypeScripMonoRepo",
  "author": "VincentBailly <vibailly@microsoft.com>",
  "scripts": {
-	"prepare": "lerna run prepare",
   "build": "lerna run build",
   "lerna": "lerna",
   "watch": "lerna run watch --parallel"

@@ -1,10 +1,10 @@
-import C from "C";
+import { message } from "C";
 
 
 
 
 
-const message: string = C.message;
+const message2: string = message;
 
 
 

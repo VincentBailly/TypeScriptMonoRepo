@@ -1,10 +1,10 @@
-import { message } from "C";
+import C from "C";
 
 
 
 
 
-const message2: string = message;
+const message2: string = C.message3;
 
 
 
@@ -12,4 +12,4 @@ const message2: string = message;
 
 
 
-console.log(message)
+console.log(message2)

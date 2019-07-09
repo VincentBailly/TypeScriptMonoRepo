@@ -7,5 +7,4 @@ function h1(text: string): string {
 
 document.body.innerHTML = h1(message1)
 
-//export default { message: "Hi from module C", key: 2, index: 0 }
-export const message = "Hi from module C";
+export default { message3: "Hi from module C", key: 2, index: 0 }

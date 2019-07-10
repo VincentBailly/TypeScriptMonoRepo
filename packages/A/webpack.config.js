@@ -28,5 +28,5 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  plugins: [new ForkTsCheckerWebpackPlugin({async: true})]
+  plugins: [new ForkTsCheckerWebpackPlugin({tsconfig: path.resolve(__dirname, "../../tsconfig.json")})]
 };

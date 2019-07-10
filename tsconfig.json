@@ -1,9 +1,7 @@
 {
     "compilerOptions": {
-        "preserveWatchOutput": true,
         "lib": ["dom"],
         "target": "es6",
-        "rootDir": "src",
         "moduleResolution": "node",
     },
 }

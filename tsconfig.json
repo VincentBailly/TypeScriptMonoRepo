@@ -1,11 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "lib",
-        "declarationMap": true,
-        "inlineSourceMap": false,
-        "inlineSources": false,
-        "declaration": true,
         "preserveWatchOutput": true,
+        "lib": ["dom"],
         "target": "es6",
         "rootDir": "src",
         "moduleResolution": "node",

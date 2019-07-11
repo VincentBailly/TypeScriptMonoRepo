@@ -37,6 +37,7 @@ config = {
     },
     extensions: [".ts", ".js", ".json", ".wasm", ".mjs"]
   },
+  plugins: [new ForkTsCheckerWebpackPlugin({tsconfig: path.resolve(__dirname, "../../tsconfig.json")})]
 };
 
 module.exports = config;

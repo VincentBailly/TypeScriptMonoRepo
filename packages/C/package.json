@@ -4,9 +4,11 @@
 	"private": false,
 	"main": "lib/index.js",
 	"typings": "lib/index.d.ts",
+	"license": "MIT",
 	"scripts": {
 		"build": "",
-		"watch": ""
+		"watch": "",
+		"prepublishOnly": "yarn tsc --project tsconfig.release.json"
 	},
 	"devDependencies": {
 		"typescript": "^3.5.1"

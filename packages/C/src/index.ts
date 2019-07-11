@@ -4,6 +4,8 @@ function h1(text: string): string {
     return `<h1>${text}</h1>`;
 }
 
+export * from "./AComponent"
+
 
 document.body.innerHTML = h1(message1)
 

@@ -1,7 +1,7 @@
 import "B";
 
-import c from "C/lib/AComponent";
+import { message } from "C/lib/AComponent";
 
-const t: string = c;
+const t: string = message;
 
 console.log(t);

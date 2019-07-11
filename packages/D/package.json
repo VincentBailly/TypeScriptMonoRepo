@@ -6,7 +6,8 @@
 	"typings": "src/index.ts",
 	"scripts": {
 		"build": "",
-		"watch": ""
+		"watch": "",
+		"prepublishOnly": "yarn tsc --project tsconfig.release.json"
 	},
 	"dependencies": {
 		"B": "*",

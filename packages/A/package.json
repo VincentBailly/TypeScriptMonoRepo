@@ -1,6 +1,8 @@
 {
 	"name": "A",
 	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
 	"scripts": {
 		"watch": "webpack-dev-server",
 		"build": "webpack"

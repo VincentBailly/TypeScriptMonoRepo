@@ -1,7 +1,7 @@
 const path = require("path");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
-module.exports = {
+config = {
   mode: "development",
   entry: "./src/index.ts",
   // We use inline source-map to enable sub-line breakpoints,
@@ -28,5 +28,15 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  plugins: [new ForkTsCheckerWebpackPlugin({tsconfig: path.resolve(__dirname, "../../tsconfig.json")})]
+  resolve: {
+    alias: {
+      "B/lib": path.resolve(__dirname, "../B/src"),
+      "C/lib": path.resolve(__dirname, "../C/src"),
+      C$: path.resolve(__dirname, "../C/src"),
+      B$: path.resolve(__dirname, "../B/src"),
+    },
+    extensions: [".ts", ".js", ".json", ".wasm", ".mjs"]
+  },
 };
+
+module.exports = config;

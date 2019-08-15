@@ -1,9 +1,10 @@
 {
-  "extends": "../../tsconfig.release.json",
+  "extends": "typescript-scripts/tsconfig.release.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "composite": true
   },
   "include": ["src"],
   "references": [

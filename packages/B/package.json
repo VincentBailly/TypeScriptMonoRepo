@@ -14,7 +14,7 @@
 		"C": "*"
 	},
 	"devDependencies": {
-		"scripts": "*",
+		"typescript-scripts": "*",
 		"typescript": "^3.5.1"
 	}
 }

@@ -11,7 +11,7 @@
 		"prepublishOnly": "yarn tsc --project tsconfig.release.json"
 	},
 	"devDependencies": {
-		"scripts": "*",
+		"typescript-scripts": "*",
 		"typescript": "^3.5.1"
 	}
 }

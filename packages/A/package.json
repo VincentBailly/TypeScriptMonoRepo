@@ -18,7 +18,7 @@
 		"C": "*"
 	},
 	"devDependencies": {
-		"scripts": "*",
+		"typescript-scripts": "*",
 		"@babel/core": "^7.5.5",
 		"@babel/preset-typescript": "^7.3.3",
 		"babel-loader": "^8.0.6",

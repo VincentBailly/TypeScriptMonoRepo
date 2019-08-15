@@ -3,9 +3,7 @@
     "lib": ["dom"],
     "target": "es6",
     "moduleResolution": "node",
-    "preserveWatchOutput": true,
     "declaration": true,
     "declarationMap": true,
-    "composite": true,
   }
 }

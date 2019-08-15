@@ -6,3 +6,4 @@ node_modules/*
 **/dist/main.js
 
 tsconfig.tsbuildinfo
+tsconfig.release.tsbuildinfo

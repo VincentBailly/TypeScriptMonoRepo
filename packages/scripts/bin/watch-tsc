@@ -1,0 +1,1 @@
+yarn tsc --build --watch tsconfig.release.json

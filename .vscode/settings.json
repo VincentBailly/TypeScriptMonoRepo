@@ -1,6 +1,11 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.tsdk": "../TypeScript/built/local",
     "files.exclude": {
         "**/node_modules": false
-    }
+    },
+    "javascript.suggestionActions.enabled": false,
+    "javascript.suggest.paths": false,
+    "javascript.suggest.names": false,
+    "javascript.suggest.enabled": false,
+    "typescript.tsserver.log": "verbose"
 }

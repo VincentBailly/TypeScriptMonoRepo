@@ -1,5 +1,4 @@
 const path = require("path");
-const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 config = {
   mode: "development",
@@ -20,7 +19,13 @@ config = {
     rules: [
       {
         test: /\.ts$/,
-        use: [{ loader: "ts-loader", options: { transpileOnly: true } }]
+        use: [{ loader: "babel-loader", options: { presets: ["@babel/preset-typescript"], cacheDirectory: true, cacheCompression: false }}],
+        exclude: /.*\/node_modules\/.*/
+      },
+      {
+        test: /\.js$/,
+        use: ["source-map-loader"],
+        enforce: "pre"
       }
     ]
   },
@@ -37,7 +42,6 @@ config = {
     },
     extensions: [".ts", ".js", ".json", ".wasm", ".mjs"]
   },
-  plugins: [new ForkTsCheckerWebpackPlugin({tsconfig: path.resolve(__dirname, "../../tsconfig.json")})]
 };
 
 module.exports = config;

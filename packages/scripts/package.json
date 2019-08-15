@@ -1,0 +1,15 @@
+{
+    "name": "scripts",
+    "version": "1.0.0",
+    "privat": true,
+    "licence": "MIT",
+    "bin": {
+        "build-tsc": "bin/build-tsc",
+        "watch-tsc": "bin/watch-tsc"
+    },
+    "dependencies": {
+    },
+    "peerDependencies": {
+        "typescript": "^3.5.3"
+    }
+}

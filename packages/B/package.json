@@ -6,11 +6,15 @@
 	"typings": "lib/index.d.ts",
 	"license": "MIT",
 	"scripts": {
-		"build": "",
-		"watch": "",
+		"build": "build-tsc",
+		"watch": "watch-tsc",
 		"prepublishOnly": "yarn tsc --project tsconfig.release.json"
 	},
+	"dependencies": {
+		"C": "*"
+	},
 	"devDependencies": {
+		"scripts": "*",
 		"typescript": "^3.5.1"
 	}
 }

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["dom"],
+    "target": "es6",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "B/lib/*": ["../B/src/*"],
+      "C/lib/*": ["../C/src/*"],
+      "B": ["../B/src/index.ts"],
+      "C": ["../C/src/index.ts"],
+    }
+  }
+}
+    

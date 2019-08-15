@@ -1,11 +1,13 @@
 {
-    "extends": "../../tsconfig.json",
-    "include": ["src/**/*"],
-    "compilerOptions": {
-        "outDir": "lib",
-        "declarationMap": true,
-        "declaration": true,
-        "rootDir": "src",
-        "paths": {}
+  "extends": "../../tsconfig.release.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "references": [
+    {
     }
+  ]
 }

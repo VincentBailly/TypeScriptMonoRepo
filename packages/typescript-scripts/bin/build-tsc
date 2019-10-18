@@ -1,1 +1,1 @@
-yarn tsc --build tsconfig.release.json
+yarn tsc --build tsconfig.json

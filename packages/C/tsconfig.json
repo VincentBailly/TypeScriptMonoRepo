@@ -1,10 +1,14 @@
 {
+  "extends": "typescript-scripts/tsconfig.json",
   "compilerOptions": {
-    "lib": ["dom"],
-    "target": "es6",
-    "moduleResolution": "node",
     "baseUrl": ".",
-    "paths": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "composite": true
+  },
+  "include": ["src"],
+  "references": [
+    {
     }
-  }
+  ]
 }

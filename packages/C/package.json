@@ -7,8 +7,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "build-tsc",
-		"watch": "watch-tsc",
-		"prepublishOnly": "yarn tsc --project tsconfig.release.json"
+		"watch": "watch-tsc"
 	},
 	"devDependencies": {
 		"typescript-scripts": "*",

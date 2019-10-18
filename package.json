@@ -2,13 +2,11 @@
  "name": "monorepoPlayground",
  "version": "1.0.0",
  "private": true,
- "main": "index.js",
- "repository": "https://github.com/VincentBailly/TypeScripMonoRepo",
+ "repository": "https://github.com/VincentBailly/TypeScriptMonoRepo",
  "author": "VincentBailly <vibailly@microsoft.com>",
  "scripts": {
   "build": "lerna run build",
-  "lerna": "lerna",
-  "watch": "lerna run watch --parallel"
+  "watch": "lerna run watch"
  },
  "workspaces": {
   "packages": [

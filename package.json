@@ -1,20 +1,20 @@
 {
- "name": "monorepoPlayground",
- "version": "1.0.0",
- "private": true,
- "repository": "https://github.com/VincentBailly/TypeScriptMonoRepo",
- "author": "VincentBailly <vibailly@microsoft.com>",
- "scripts": {
-  "build": "lerna run build",
-  "postinstall": "lerna run prepare"
- },
- "workspaces": {
-  "packages": [
-   "packages/*"
-  ]
- },
- "license": "MIT",
- "devDependencies": {
-  "lerna": "^3.15.0"
- }
+  "name": "monorepoPlayground",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/VincentBailly/TypeScriptMonoRepo",
+  "author": "VincentBailly <vibailly@microsoft.com>",
+  "scripts": {
+    "build": "lerna run build",
+    "postinstall": "lerna run prepare"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
 }

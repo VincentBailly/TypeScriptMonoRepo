@@ -13,7 +13,17 @@ config = {
     rules: [
       {
         test: /\.ts$/,
-        use: [{ loader: "babel-loader", options: {sourceMap: true, presets: ["@babel/preset-typescript"], cacheDirectory: true, cacheCompression: false }}],
+        use: [
+          {
+            loader: "babel-loader",
+            options: {
+              sourceMap: true,
+              presets: ["@babel/preset-typescript"],
+              cacheDirectory: true,
+              cacheCompression: false
+            }
+          }
+        ],
         exclude: /.*\/node_modules\/.*/
       }
     ]
@@ -27,10 +37,10 @@ config = {
       "B/lib": path.resolve(__dirname, "../B/src"),
       "C/lib": path.resolve(__dirname, "../C/src"),
       C$: path.resolve(__dirname, "../C/src"),
-      B$: path.resolve(__dirname, "../B/src"),
+      B$: path.resolve(__dirname, "../B/src")
     },
     extensions: [".ts", ".js", ".json", ".wasm", ".mjs"]
-  },
+  }
 };
 
 module.exports = config;

@@ -4,5 +4,4 @@ function sayHello(name: string): void {
 
 sayHello("Medium readers");
 
-export default "Hi from module B"
-
+export default "Hi from module B";

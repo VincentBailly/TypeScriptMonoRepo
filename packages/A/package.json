@@ -11,7 +11,8 @@
 		"watch:tsc": "watch-tsc",
 		"build": "run-p build:**",
 		"build:webpack": "webpack",
-		"build:tsc": "build-tsc"
+		"build:tsc": "build-tsc",
+                "prepare": "update-ts-config"
 	},
 	"dependencies": {
 		"B": "*",

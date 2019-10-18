@@ -6,9 +6,5 @@
     "rootDir": "src",
     "composite": true
   },
-  "include": ["src"],
-  "references": [
-    {
-    }
-  ]
+  "include": ["src"]
 }

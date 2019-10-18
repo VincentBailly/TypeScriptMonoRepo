@@ -8,11 +8,7 @@
   },
   "include": ["src"],
   "references": [
-    {
-      "path": "../B/tsconfig.json"
-    },
-    {
-      "path": "../C/tsconfig.json"
-    }
+    { "path": "../B/tsconfig.json" },
+    { "path": "../C/tsconfig.json" }
   ]
 }

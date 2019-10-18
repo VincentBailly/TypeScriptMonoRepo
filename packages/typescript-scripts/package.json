@@ -1,15 +1,17 @@
 {
-    "name": "typescript-scripts",
-    "version": "1.0.0",
-    "privat": true,
-    "licence": "MIT",
-    "bin": {
-        "build-tsc": "bin/build-tsc",
-        "watch-tsc": "bin/watch-tsc"
-    },
-    "dependencies": {
-    },
-    "peerDependencies": {
-        "typescript": "^3.5.3"
-    }
+  "name": "typescript-scripts",
+  "version": "1.0.0",
+  "privat": true,
+  "licence": "MIT",
+  "bin": {
+    "build-tsc": "bin/build-tsc",
+    "watch-tsc": "bin/watch-tsc",
+    "update-ts-config": "bin/update-ts-config"
+  },
+  "dependencies": {
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "typescript": "^3.5.3"
+  }
 }

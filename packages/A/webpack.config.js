@@ -13,7 +13,7 @@ config = {
     rules: [
       {
         test: /\.ts$/,
-        use: [{ loader: "babel-loader", options: { presets: ["@babel/preset-typescript"], cacheDirectory: true, cacheCompression: false }}],
+        use: [{ loader: "babel-loader", options: {sourceMap: true, presets: ["@babel/preset-typescript"], cacheDirectory: true, cacheCompression: false }}],
         exclude: /.*\/node_modules\/.*/
       }
     ]

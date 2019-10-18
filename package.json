@@ -5,8 +5,7 @@
  "repository": "https://github.com/VincentBailly/TypeScriptMonoRepo",
  "author": "VincentBailly <vibailly@microsoft.com>",
  "scripts": {
-  "build": "lerna run build",
-  "watch": "lerna run watch"
+  "build": "lerna run build"
  },
  "workspaces": {
   "packages": [

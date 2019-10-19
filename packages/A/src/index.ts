@@ -1,6 +1,6 @@
-import "B";
+import 'B';
 
-import { message } from "C/lib/AComponent";
+import { message } from 'C';
 
 const t: string = message;
 

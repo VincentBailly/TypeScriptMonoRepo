@@ -7,8 +7,5 @@
     "composite": true
   },
   "include": ["src"],
-  "references": [
-    { "path": "../B/tsconfig.json" },
-    { "path": "../C/tsconfig.json" }
-  ]
+  "references": [{ "path": "../B/tsconfig.json" }, { "path": "../C/tsconfig.json" }]
 }

@@ -2,8 +2,7 @@
   "name": "B",
   "version": "1.0.0",
   "private": false,
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "build": "build-tsc",
@@ -15,6 +14,6 @@
   },
   "devDependencies": {
     "typescript-scripts": "*",
-    "typescript": "^3.5.1"
+    "typescript": "3.7.0-beta"
   }
 }

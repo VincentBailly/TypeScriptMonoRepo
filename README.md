@@ -1,27 +1,16 @@
 # TypeScriptMonoRepo
 
-## Inner dev loop
-
-Example working with the test app in package A:
+## Repro steps for the TS 3.7 bug
 
 ```
-/TypeScriptMonoRepo/packages/A $ yarn watch
+yarn
+## edit the code
 ```
 
-Watching will:
-
-- incrementally typecheck after each change.
-- incrementally build and serve the test app after each change.
-
-Both steps are independent from each other, this means that we don't need a successful type checking to test a change.
-
-## Outer dev loop
-
-Build full repo:
+## Building with project references work (even <=3.7.0)
 
 ```
-/TypeScriptMonoRepo $ yarn build
+yarn
+yarn build
 ```
 
-Building the full repo should be done to typecheck the full repo in one operation,
-and to build the published assets before publishing.

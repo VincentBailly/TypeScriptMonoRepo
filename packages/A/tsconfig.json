@@ -1,11 +1,11 @@
 {
-  "extends": "typescript-scripts/tsconfig.json",
+  "extends": "../tsconfig.common.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "lib",
     "rootDir": "src",
     "composite": true
   },
-  "include": ["src"],
-  "references": [{ "path": "../B/tsconfig.json" }, { "path": "../C/tsconfig.json" }]
+  "include": ["src/index.ts"],
+  "references": [{ "path": "../b/tsconfig.json" }, { "path": "../c/tsconfig.json" }]
 }

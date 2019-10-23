@@ -1,19 +1,17 @@
 {
-  "name": "B",
+  "name": "b",
   "version": "1.0.0",
   "private": false,
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "build-tsc",
-    "watch": "watch-tsc",
-    "prepare": "update-ts-config"
+    "build": "tsc -b"
   },
   "dependencies": {
-    "C": "*"
+    "c": "*"
   },
   "devDependencies": {
-    "typescript-scripts": "*",
     "typescript": "3.7.0-beta"
   }
 }

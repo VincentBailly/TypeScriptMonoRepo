@@ -4,7 +4,7 @@ function h1(text: string): string {
   return `<h1>${text}</h1>`;
 }
 
-export * from './AComponent';
+export * from './SomeComponent';
 
 document.body.innerHTML = h1(message1);
 

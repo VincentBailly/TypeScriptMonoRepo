@@ -1,32 +1,18 @@
 {
-  "name": "A",
+  "name": "a",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "watch": "run-p watch:**",
-    "watch:webpack": "webpack-dev-server",
-    "watch:tsc": "watch-tsc",
-    "build": "run-p build:**",
-    "build:webpack": "webpack",
-    "build:tsc": "build-tsc",
-    "prepare": "update-ts-config"
+    "build": "tsc -b"
   },
   "dependencies": {
-    "B": "*",
-    "C": "*"
+    "b": "*",
+    "c": "*"
   },
   "devDependencies": {
-    "typescript-scripts": "*",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-typescript": "^7.3.3",
-    "babel-loader": "^8.0.6",
-    "node-object-hash": "^1.4.2",
-    "npm-run-all": "^4.1.5",
-    "typescript": "3.7.0-beta",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4",
-    "webpack-dev-server": "^3.7.1"
+    "typescript": "3.7.0-beta"
   }
 }

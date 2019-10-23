@@ -1,6 +1,6 @@
-import bmessage from 'B';
+import bmessage from 'b';
 
-import { message } from 'C';
+import { message } from 'c/lib/SomeComponent';
 
 const t: string = message;
 

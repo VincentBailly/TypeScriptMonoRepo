@@ -13,6 +13,6 @@
     "c": "*"
   },
   "devDependencies": {
-    "typescript": "3.7.0-beta"
+    "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/50915/artifacts?artifactName=tgz&fileId=9C80921BDBB4BCF9B39B6DBEE763FCA9EE99C39AB5580C17449A33A83925107A02&fileName=/typescript-3.8.0-insiders.20191025.tgz"
   }
 }

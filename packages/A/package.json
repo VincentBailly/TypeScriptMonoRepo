@@ -1,33 +1,18 @@
 {
-  "name": "A",
+  "name": "a",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "watch": "run-p watch:**",
-    "watch:webpack": "webpack-dev-server",
-    "watch:tsc": "watch-tsc",
-    "build": "run-p build:**",
-    "build:webpack": "webpack",
-    "build:tsc": "build-tsc",
-    "prepare": "update-ts-config"
+    "build": "tsc -b"
   },
   "dependencies": {
-    "B": "*",
-    "C": "*"
+    "b": "*",
+    "c": "*"
   },
   "devDependencies": {
-    "typescript-scripts": "*",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-typescript": "^7.3.3",
-    "babel-loader": "^8.0.6",
-    "node-object-hash": "^1.4.2",
-    "npm-run-all": "^4.1.5",
-    "typescript": "^3.5.1",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4",
-    "webpack-dev-server": "^3.7.1"
+    "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/50915/artifacts?artifactName=tgz&fileId=9C80921BDBB4BCF9B39B6DBEE763FCA9EE99C39AB5580C17449A33A83925107A02&fileName=/typescript-3.8.0-insiders.20191025.tgz"
   }
 }

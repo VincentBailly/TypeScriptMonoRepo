@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "typescript-scripts": "*",
+    "lerna": "^2.0.0",
     "typescript": "^3.7.2"
   }
 }

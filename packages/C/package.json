@@ -14,6 +14,7 @@
     "typescript-scripts": "*",
     "puppeteer-firefox": "*",
     "lodash": "*",
+    "lerna": "^2.0.0",
     "underscore": "*",
     "typescript": "^3.7.2"
   }

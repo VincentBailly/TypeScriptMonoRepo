@@ -1,5 +1,5 @@
 {
-  "name": "C",
+  "name": "J",
   "version": "1.0.0",
   "private": false,
   "main": "lib/index.js",
@@ -19,7 +19,6 @@
     "webpack": "4.36.0",
     "@types/jest":"*",
     "@types/yargs":"*",
-    "@types/lodash":"*",
     "ts-node":"*",
     "sass-loader":"8.0.0",
     "node-sass": "^4.0.0",

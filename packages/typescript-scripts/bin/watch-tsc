@@ -1,1 +1,2 @@
-yarn tsc --build --watch --preserveWatchOutput tsconfig.json
+const execa = require("execa");
+execa('yarn', ['tsc', '--build', '--watch', '--preserveWatchOutput', 'tsconfig.json']).stdout.pipe(process.stdout);

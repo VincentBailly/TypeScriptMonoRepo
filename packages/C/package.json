@@ -8,10 +8,13 @@
   "scripts": {
     "build": "build-tsc",
     "watch": "watch-tsc",
-    "prepare": "update-ts-config"
+    "-prepare": "update-ts-config"
   },
   "devDependencies": {
     "typescript-scripts": "*",
-    "typescript": "^3.5.1"
+    "puppeteer-firefox": "*",
+    "lodash": "*",
+    "underscore": "*",
+    "typescript": "^3.7.2"
   }
 }

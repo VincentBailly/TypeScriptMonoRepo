@@ -1,1 +1,4 @@
-yarn tsc --build tsconfig.json
+#!/usr/bin/env node
+
+const execa = require("execa");
+execa('yarn', ['tsc', '--build', 'tsconfig.json']).stdout.pipe(process.stdout);
